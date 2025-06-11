@@ -1,14 +1,15 @@
 {
-  "name": "telegram-nsfw-bot",
+  "name": "nsfw-telegram-bot",
   "version": "1.0.0",
-  "description": "Telegram bot using Rule34 API for NSFW search",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "node-telegram-bot-api": "^0.61.0"
+    "@tensorflow/tfjs-node": "^4.10.0",
+    "canvas": "^2.11.2",
+    "node-fetch": "^2.6.9",
+    "nsfwjs": "^2.5.0",
+    "telegraf": "^4.12.3"
   }
 }
