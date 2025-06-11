@@ -1,9 +1,3 @@
-# Use official Node.js LTS image
-FROM node:18-slim
-
-# Set working directory
-WORKDIR /app
-
 # Install build tools + dependencies for canvas & node-gyp
 RUN apt-get update && apt-get install -y \
     build-essential \
