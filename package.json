@@ -5,11 +5,11 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "dependencies": {
-    "@tensorflow/tfjs-node": "^4.10.0",
-    "canvas": "^2.11.2",
-    "node-fetch": "^2.6.9",
-    "nsfwjs": "^2.4.0",
-    "telegraf": "^4.12.3"
-  }
+"dependencies": {
+  "dotenv": "^16.0.0",
+  "@tensorflow/tfjs-node": "^4.10.0",
+  "canvas": "^2.11.2",
+  "node-fetch": "^2.6.9",
+  "nsfwjs": "^2.4.0",
+  "telegraf": "^4.12.3"
 }
