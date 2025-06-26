@@ -1,2 +1,2 @@
 [build]
-start = "node bot.js"
+start = "npm start"
