@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 async function getPosts(tag) {
-  const url = \`https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&json=1&tags=\${tag}\`;
+  const url = `https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&json=1&tags=${tag}`;\${tag}\`;
   const res = await fetch(url);
   const data = await res.json();
   return data.map(p => ({
